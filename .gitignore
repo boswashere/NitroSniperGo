@@ -1,25 +1,69 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+# NitroSniper - Python Edition
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
-*.dylib
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Test binary, built with `go test -c`
-*.test
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Config and secrets
+settings.json
+tokens.txt
+.env
+.env.local
+*.log
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-.idea/modules.xml
-.idea/NitroSniperGo.iml
-.idea/vcs.xml
-.idea/workspace.xml
-NitroSniperGo_build_*
-NitroSniperGo_build_mac/NitroSniperGo
-NitroSniperGo_build_mac/token.json
-NitroSniperGo_build_win64.zip
-NitroSniperGo_build_win64/token.json
-package-lock.json
+# OS
+Thumbs.db
+.DS_Store
+*.tmp
+
+# Test coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Legacy Go files (archived)
+*.go
+go.mod
+go.sum

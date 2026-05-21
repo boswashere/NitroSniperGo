@@ -1,12 +1,13 @@
 {
   "tokens": {
-    "main": "",
+    "main": "YOUR_MAIN_TOKEN_HERE",
     "alts": [
-      ""
+      "ALT_TOKEN_1_HERE",
+      "ALT_TOKEN_2_HERE"
     ]
   },
   "status": {
-    "main": "",
+    "main": "online",
     "alts": "invisible"
   },
   "nitro": {
@@ -17,9 +18,9 @@
   },
   "giveaway": {
     "enable": true,
-    "delay": 15,
-    "dm": "Hey, I won a giveaway !",
-    "dm_delay": 25,
+    "delay": 5,
+    "dm": "Hey, I won a giveaway!",
+    "dm_delay": 10,
     "blacklist_words": [
       "bot",
       "test",
